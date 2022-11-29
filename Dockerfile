@@ -1,5 +1,5 @@
 FROM python:3.10.8-buster
-RUN apt-get update &&\
+RUN apt update &&\
     /usr/local/bin/python3 -m pip install --upgrade pip &&\
     /usr/local/bin/python3 -m pip install --upgrade setuptools &&\
     adduser myuser
